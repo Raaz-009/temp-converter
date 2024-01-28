@@ -1,0 +1,55 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: antiquewhite;
+}
+
+h1{
+    color: rgb(25, 25, 148);
+}
+
+.calc{
+    text-align: center;
+    background-color: aliceblue;
+    margin: auto;
+    width: 50%;
+    max-width: 350px;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.457);
+}
+
+#textbox{
+    text-align: center;
+    font-size: 20px;
+    border: 2px solid rgba(0, 0, 0, 0.201);
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+label{
+    font-size: 1.5em;
+    font-weight: bold;
+    
+}
+
+button{
+    margin-top: 10px;
+    font-size: 1.2em;
+    border: none;
+    padding:10px 15px ;
+    border-radius: 10px;
+    background-color: rgb(255, 142, 134);
+    color: white;
+    cursor: pointer;
+
+}
+
+button:hover{
+    background-color: rgb(153, 81, 26);
+}
+
+#Result{
+    font-size: 1.3em;
+    font-weight: bold;
+}

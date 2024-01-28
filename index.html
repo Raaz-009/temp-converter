@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>temp-converter</title>
+  </head>
+  <body>
+    <div class="calc">
+      <form action="">
+        <h1>temperature converter</h1>
+        <input type="number" id="textbox" value="0" /><br />
+
+        <input type="radio" name="unit" id="tofrn" />
+        <label for="tofrn">Celcius ➡️ Farenheit</label><br />
+
+        <input type="radio" name="unit" id="tocel" />
+        <label for="tocel">Farenheit ➡️ Celcius</label><br />
+        <button type="button" onclick="convert()">Submit</button>
+
+        <p id="Result"></p>
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
